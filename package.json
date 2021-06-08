@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/alestor123/READING-BOOKS/issues"
   },
-  "homepage": "https://github.com/alestor123/READING-BOOKS#readme"
+  "homepage": "https://github.com/alestor123/READING-BOOKS#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "xml2json": "^0.12.0"
+  }
 }
