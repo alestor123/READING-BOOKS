@@ -1,0 +1,11 @@
+{
+    "routes":[{
+        "src":"/read",
+        "dest":"/api/read.js",
+        "methods":["GET"]
+    },{
+      "src":"/current",
+      "dest":"/api/currently.js",
+      "methods":["GET"]
+  }]
+}
