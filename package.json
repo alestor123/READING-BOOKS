@@ -1,0 +1,19 @@
+{
+  "name": "reading-books",
+  "version": "1.0.0",
+  "description": " This is a simple code for showing you  goodread books",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alestor123/READING-BOOKS.git"
+  },
+  "author": "Alestor Aldous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alestor123/READING-BOOKS/issues"
+  },
+  "homepage": "https://github.com/alestor123/READING-BOOKS#readme"
+}
