@@ -18,6 +18,7 @@
   "homepage": "https://github.com/alestor123/READING-BOOKS#readme",
   "dependencies": {
     "axios": "^0.21.1",
+    "ejs": "^3.1.6",
     "xml2json": "^0.12.0"
   }
 }

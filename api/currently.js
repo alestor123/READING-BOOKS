@@ -1,5 +1,8 @@
-var {current}  = require('../api');
-
+var {current,badge}  = require('../api');
 module.exports = async (req,res) => {
-res.json((await current(req.query.id || process.env.ID))[0])
+if(req.query.type==='svg') {
+res.setHeader('Content-Type', 'image/svg+xml')
+res.send((await badge(req.query.id || process.env.ID)))
+}
+else res.json(await current(req.query.id || process.env.ID))
 }

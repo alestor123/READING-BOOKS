@@ -1,11 +1,21 @@
 {
     "routes":[{
-        "src":"/read",
-        "dest":"/api/read.js",
+        "src":"/",
+        "dest":"api/read.js",
         "methods":["GET"]
     },{
       "src":"/current",
-      "dest":"/api/currently.js",
-      "methods":["GET"]
-  }]
+      "dest":"api/currently.js",
+      "methods":["GET"],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept",
+        "Access-Control-Allow-Credentials": "true"
+      }
+  }],
+  "functions": {
+    "api/currently.js": {
+      "includeFiles": "_files/**"
+    }
+  }
 }
